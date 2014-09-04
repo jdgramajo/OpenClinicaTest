@@ -2,24 +2,18 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15165" started-at="2014-09-04T17:40:35Z" finished-at="2014-09-04T17:40:50Z">
+  <suite name="Command line suite" duration-ms="13758" started-at="2014-09-04T16:01:12Z" finished-at="2014-09-04T16:01:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15165" started-at="2014-09-04T17:40:35Z" finished-at="2014-09-04T17:40:50Z">
+    <test name="Command line test" duration-ms="13758" started-at="2014-09-04T16:01:12Z" finished-at="2014-09-04T16:01:26Z">
       <class name="com.openclinica.webtest.tests.SessionManagementTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.openclinica.webtest.tests.SessionManagementTest@2c766a24]" name="beforeMethod" is-config="true" duration-ms="7108" started-at="2014-09-04T11:40:35Z" finished-at="2014-09-04T11:40:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="main()[pri:0, instance:com.openclinica.webtest.tests.SessionManagementTest@2c766a24]" name="main" duration-ms="7973" started-at="2014-09-04T11:40:42Z" finished-at="2014-09-04T11:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.openclinica.webtest.tests.SessionManagementTest@2c766a24]" name="afterMethod" is-config="true" duration-ms="74" started-at="2014-09-04T11:40:50Z" finished-at="2014-09-04T11:40:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.openclinica.webtest.tests.SessionManagementTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="4742" started-at="2014-09-04T16:01:12Z" finished-at="2014-09-04T16:01:17Z">
+        </test-method>
+        <test-method status="PASS" signature="main()" name="main" duration-ms="8934" started-at="2014-09-04T16:01:17Z" finished-at="2014-09-04T16:01:26Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="76" started-at="2014-09-04T16:01:26Z" finished-at="2014-09-04T16:01:26Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
 </testng-results>

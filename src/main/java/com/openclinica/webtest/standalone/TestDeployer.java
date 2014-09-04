@@ -13,7 +13,7 @@ public class TestDeployer {
 	public static void main(String[] args) {
 		TestListenerAdapter tla = new TestListenerAdapter();
 		TestNG allTests = new TestNG();
-		allTests.setTestClasses(new Class[] {SessionManagementTest.class});
+		allTests.setTestClasses(new Class[] { SessionManagementTest.class });
 		allTests.addListener(tla);
 		allTests.run();
 	}
