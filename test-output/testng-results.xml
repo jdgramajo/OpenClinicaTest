@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="12478" started-at="2014-09-05T15:10:54Z" finished-at="2014-09-05T15:11:06Z">
+  <suite name="Command line suite" duration-ms="16006" started-at="2014-09-05T17:13:47Z" finished-at="2014-09-05T17:14:03Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="12478" started-at="2014-09-05T15:10:54Z" finished-at="2014-09-05T15:11:06Z">
-      <class name="com.openclinica.webtest.tests.SessionManagementTest">
-        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="4793" started-at="2014-09-05T15:10:54Z" finished-at="2014-09-05T15:10:59Z">
+    <test name="Command line test" duration-ms="16006" started-at="2014-09-05T17:13:47Z" finished-at="2014-09-05T17:14:03Z">
+      <class name="com.openclinica.webtest.tests.CheckPatientTest">
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="4350" started-at="2014-09-05T17:13:47Z" finished-at="2014-09-05T17:13:52Z">
         </test-method>
-        <test-method status="PASS" signature="main()" name="main" duration-ms="7600" started-at="2014-09-05T15:10:59Z" finished-at="2014-09-05T15:11:06Z">
+        <test-method status="PASS" signature="main()" name="main" duration-ms="11573" started-at="2014-09-05T17:13:52Z" finished-at="2014-09-05T17:14:03Z">
         </test-method>
-        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="78" started-at="2014-09-05T15:11:06Z" finished-at="2014-09-05T15:11:06Z">
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="77" started-at="2014-09-05T17:14:03Z" finished-at="2014-09-05T17:14:03Z">
         </test-method>
       </class>
     </test>
