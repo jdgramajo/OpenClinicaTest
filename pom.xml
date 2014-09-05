@@ -1,16 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.xoom.openclinicatest</groupId>
-	<artifactId>OpenClinicaTest</artifactId>
+	<groupId>com.openclinicatest.webtest</groupId>
+	<artifactId>TestDeployer</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0</version>
-	<name>PatientCheck</name>
+	<name>TestDeployer</name>
 	<description>Checks a patient at Open Clinica's sample website.</description>
-
-	<properties>
-		<jdk.version>1.6</jdk.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
@@ -30,16 +26,27 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.4.1</version>
 				<configuration>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
 					<archive>
 						<manifest>
 							<mainClass>com.openclinica.webtest.standalone.TestDeployer</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

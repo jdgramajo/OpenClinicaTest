@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="XoomBox" name="com.openclinica.webtest.tests.SessionManagementTest" tests="1" failures="0" timestamp="4 Sep 2014 23:34:09 GMT" time="12.147" errors="0">
+  <testcase name="main" time="7.732" classname="com.openclinica.webtest.tests.SessionManagementTest"/>
+</testsuite>
