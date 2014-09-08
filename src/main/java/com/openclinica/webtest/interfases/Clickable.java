@@ -7,6 +7,6 @@ import com.openclnica.webtest.enums.Clickables;
 /*
  * Specifies the contract for object to click on a webpage.
  */
-public interface Clicker {
+public interface Clickable {
 	public void click(WebDriver driver, Clickables clickableType, String clickOn);
 }

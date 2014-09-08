@@ -16,9 +16,9 @@ import com.openclnica.webtest.enums.Clickables;
 
 public class CheckPatientTest {
 
-    SessionManager sm;
-    SimpleClicker sc;
-    WebDriver driver;
+    private SessionManager sm;
+    private SimpleClicker sc;
+    private WebDriver driver;
     
     @Test
     public void main() throws InterruptedException {

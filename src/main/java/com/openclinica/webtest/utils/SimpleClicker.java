@@ -6,14 +6,14 @@ package com.openclinica.webtest.utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import com.openclinica.webtest.interfases.Clicker;
+import com.openclinica.webtest.interfases.Clickable;
 import com.openclnica.webtest.enums.Clickables;
 
 /**
  * @author Juan Diego Gramajo
  * Simply clicks on objects accessible by selenium.
  */
-public class SimpleClicker implements Clicker {
+public class SimpleClicker implements Clickable {
 
 	private static SimpleClicker sc;
 	
@@ -22,8 +22,9 @@ public class SimpleClicker implements Clicker {
 	}
 	
 	public static SimpleClicker getSimpleClicker() {
-		if(sc == null)
+		if(sc == null) {
 			sc = new SimpleClicker();
+		}
 		return sc;
 	}
 	
